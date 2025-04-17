@@ -1,5 +1,4 @@
 text = 'Hello World'
-text = 'Albatross'
 shift = 3
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
 for char in text.lower():
