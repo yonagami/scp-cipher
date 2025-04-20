@@ -4,7 +4,7 @@ alphabet = 'abcdefghijklmnopqrstuvwxyz'
 encrypted_text = ''
 for char in text.lower():
 		if char == ' ':
-				print('space!')
+				encrypted_text += char
 		index = alphabet.find(char)
 		new_index = index + shift
 		encrypted_text += alphabet[new_index]
