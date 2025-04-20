@@ -15,4 +15,3 @@ def caesar():
 		print('plain text:',text)
 		print('encrypted text:',encrypted_text)
 
-print(alphabet)
