@@ -6,6 +6,7 @@ def vigenere(message, key):
 		alphabet = 'abcdefghijklmnopqrstuvwxyz'
 		encrypted_text = ''
 		for char in message.lower():
+				#Append space to the message
 				if char == ' ':
 						encrypted_text += char
 				else:
